@@ -1,0 +1,16 @@
+{
+  "changes": [
+    "finqa_tolerance_2pct",
+    "vector_unit_normalization",
+    "other_formula_output_spec",
+    "hybrid_kgfirst_prompt",
+    "ticker_denylist"
+  ],
+  "completed_at": "2026-05-29T05:38:06Z",
+  "model_calls": 0,
+  "phase": "9b_done",
+  "round": "round9b",
+  "scorer_version": "v9",
+  "validation_passed": true,
+  "validation_report": "outputs/round9b_validation/validation_report.json"
+}

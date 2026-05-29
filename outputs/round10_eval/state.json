@@ -1,0 +1,38 @@
+{
+  "cases_finder": 130,
+  "cases_finqa": 56,
+  "cases_target": 300,
+  "cases_tatqa": 65,
+  "cases_total_actual": 251,
+  "claim_boundary": "clean_held_out_round10_three_dataset",
+  "completed_at": "2026-05-29T10:50:12Z",
+  "eps_dilution_excluded": true,
+  "finqa_vector_beats_graph": true,
+  "formula_type_other_pct_finder": 0.0308,
+  "graph_beats_vector_test": true,
+  "hybrid_beats_graph_finder": false,
+  "kg_batch": "kg-round10-v1-20260529",
+  "phase": "done",
+  "prompt_version": "v3.4",
+  "round": "round10",
+  "run_dir": "outputs/round3_eval_runs/round10_eval_20260529_170409/",
+  "runs_completed": 753,
+  "runs_failed": [
+    {
+      "case_id": "round10_tatqa_009_f36bdf3f",
+      "error_type": "provider_timeout",
+      "method": "graph_neo4j_v10"
+    }
+  ],
+  "runs_total": 753,
+  "scoring_version": "v9",
+  "started_at": "2026-05-29T10:47:12Z",
+  "tatqa_ticker_extraction_rate": 0.1136,
+  "test_ac_graph": 0.6096,
+  "test_ac_graph_finder": 0.3923,
+  "test_ac_graph_finqa": 0.75,
+  "test_ac_graph_tatqa": 0.9231,
+  "test_ac_hybrid": 0.5657,
+  "test_ac_vector": 0.5697,
+  "yoy_fix_applied": true
+}

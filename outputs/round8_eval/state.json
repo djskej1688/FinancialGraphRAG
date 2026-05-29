@@ -1,0 +1,23 @@
+{
+  "cases_finder": 30,
+  "cases_finqa": 20,
+  "cases_total": 50,
+  "claim_boundary": "clean_held_out_round8_finder_finqa_pilot",
+  "completed_at": "2026-05-29T02:30:14Z",
+  "graph_beats_vector_test": true,
+  "kg_batch": "kg-round8-v1-20260529",
+  "phase": "done",
+  "prompt_version": "v3.3",
+  "round": "round8",
+  "run_dir": "outputs/round3_eval_runs/round8_eval_20260529_103625/",
+  "runs_completed": 150,
+  "runs_failed": [],
+  "runs_total": 150,
+  "scoring_version": "v7_no_faith_gate",
+  "started_at": "2026-05-29T02:03:08Z",
+  "test_ac_graph": 0.46,
+  "test_ac_graph_finder": 0.5,
+  "test_ac_graph_finqa": 0.4,
+  "test_ac_hybrid": 0.4,
+  "test_ac_vector": 0.36
+}

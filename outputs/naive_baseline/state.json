@@ -1,0 +1,30 @@
+{
+  "cases_finder": 26,
+  "cases_finqa": 11,
+  "cases_tatqa": 13,
+  "claim_boundary": "portfolio_naive_baseline_comparison",
+  "completed_at": "2026-05-29T11:40:40Z",
+  "graph_beats_naive_4o": true,
+  "graph_beats_naive_mini": true,
+  "model_calls": 100,
+  "model_naive_4o": "gpt-4o",
+  "model_naive_mini": "gpt-4o-mini",
+  "n_cases": 50,
+  "naive_4o_ac": 0.56,
+  "naive_4o_nc": 0.6732,
+  "naive_mini_ac": 0.46,
+  "naive_mini_nc": 0.6091,
+  "phase": "done",
+  "prompt_version": "naive_v1",
+  "r10_graph_ac_on_subset": 0.62,
+  "r10_graph_nc_on_subset": 0.7217,
+  "round": "naive_baseline",
+  "runs_by_method": {
+    "naive_gpt4o": 50,
+    "naive_gpt4omini": 50
+  },
+  "runs_completed": 100,
+  "runs_total": 100,
+  "scorer_version": "v9",
+  "updated_at": "2026-05-29T11:40:40Z"
+}

@@ -1,0 +1,30 @@
+# credentials
+.env
+
+# third-party datasets
+data/
+
+# large trace files
+**/*.jsonl
+
+# eval run directories (raw traces)
+outputs/round3_eval_runs/
+outputs/step_a_semantic_retrieval/
+outputs/step_b_targeted_kg/
+outputs/round*_step_b_kg/
+outputs/round9a_sensitivity/
+!outputs/round9a_sensitivity/
+!outputs/round9a_sensitivity/comparison_table.md
+outputs/naive_baseline/*_traces.jsonl
+
+# internal working files
+outputs/round3_backlog*/
+outputs/kg_rebuild_llm_ie/
+outputs/round3_recovery*/
+outputs/round3_review*/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
