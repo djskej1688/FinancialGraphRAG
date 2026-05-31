@@ -1,3 +1,6 @@
+> ⚠️ **SUPERSEDED.** Produced under the pre-v2 (year-bug) scorer contract; kept for traceability only.
+> Corrected reference: `round10_v2_rescore_report.md`. See README → "What Went Wrong".
+
 # Naive Baseline Comparison
 
 ## Overall on 50-Case Subset
