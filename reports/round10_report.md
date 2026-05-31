@@ -1,3 +1,10 @@
+> ⚠️ **SUPERSEDED.** Produced under the pre-v2 (year-bug) scorer contract; kept for traceability only.
+> Corrected reference: `round10_v2_rescore_report.md`. See README → "What Went Wrong".
+
+> ⚠️ **LABEL CORRECTION (R15 audit).** The `vector_only` arm here is `per_case_evidence_only` — the
+> case's own evidence text, **not corpus retrieval** — reclassified `case_text_only`. Numbers unchanged;
+> only the label is corrected. The only validated retrieval-vs-graph comparison is R14. See docs/PROVENANCE.md.
+
 # Round 10 평가 리포트
 
 **작성일:** 2026-05-29  

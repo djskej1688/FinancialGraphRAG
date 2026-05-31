@@ -1,0 +1,11 @@
+{
+  "outputs/round14b_benchmark_scale_expansion": {
+    "new_label": "gold_text_only",
+    "old_label": "vector_only_scaled",
+    "original_outputs_mutated": false,
+    "reason": "context_for() returns case.evidence_text[:6000]; no retrieval, no embedding search, no vector index",
+    "sidecar_only": true,
+    "source": "scripts/round14b_benchmark_scale.py",
+    "source_line": 577
+  }
+}
