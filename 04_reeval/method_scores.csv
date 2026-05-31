@@ -1,0 +1,6 @@
+method,n,scorer_v9_AC,number_overlap,token_f1,judge_score,both_companies_found,mean_prompt_tokens,mean_context_chars
+graph_guided_text_v14,80,0.8,0.8875,0.1305,0.5813,1.0,2922.925,0.0
+graph_structured_v14,80,0.825,0.9,0.1363,0.6,1.0,1707.75,0.0
+source_text_concat_v14,80,0.3375,0.5708,0.0634,0.2562,1.0,2796.175,0.0
+vector_multi_by_company_chunk_v15,80,0.1125,0.3792,0.0555,0.0813,0.375,7129.8375,16221.4625
+vector_single_chunk_v15,80,0.1625,0.3958,0.0585,0.0875,0.4625,6466.025,13945.6125
