@@ -172,7 +172,7 @@ frozen; reclassified via sidecar, never deleted).
 (`text-embedding-3-small`, 1200-char chunks, on-disk `numpy_ondisk` backend — LanceDB/FAISS not
 installed in the env; label is honest). Every retrieval logs `chunk_id`, `source_case_id`, score.
 
-**Independent judge (R15 Phase 2).** Authored `EVALUATION_METRICS.md` and added three uniform metrics
+**Independent judge (R15 Phase 2).** Authored `docs/EVALUATION_METRICS.md` and added three uniform metrics
 across all arms: `number_overlap`, `token_f1`, and an LLM `judge_score` (strict-JSON verdict). Judge =
 gpt-4o; **same vendor as the gpt-4o-mini generator → bias disclosed**, but the bias is *symmetric*
 across all five arms (all mini-generated), so the comparison stands; only absolute judge calibration is
