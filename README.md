@@ -371,9 +371,11 @@ python scripts/round15_cost_ledger.py             # offline cost reconstruction
 
 ```
 scripts/   # selection, contract gen, KG extraction, eval loops, scorer, audits, judge panel, cost ledger
-reports/   # per-round markdown (R4–R15). Superseded/relabeled reports carry a banner.
-docs/      # RESULTS_SUMMARY (KR), CLAIM_BOUNDARIES, EXPERIMENT_LOG, EVALUATION_METRICS, PROVENANCE
-outputs/   # eval state, coverage/judge artifacts, portfolio visuals, cost_ledger
+reports/   # per-round markdown (R4–R15, with superseded/relabel banners) + reports/evidence/ (κ, judge, cost, audit)
+docs/      # RESULTS_SUMMARY (KR), CLAIM_BOUNDARIES, EXPERIMENT_LOG, EVALUATION_METRICS, PROVENANCE, SYNTHESIS
+figures/   # the 3 result charts shown above
+prompts/   # agent task prompts used to drive each round (methodology transparency)
+outputs/   # eval state + portfolio visuals
 ```
 
 ## Tech Stack
